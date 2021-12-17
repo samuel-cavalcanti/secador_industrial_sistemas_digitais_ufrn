@@ -61,7 +61,7 @@ externa de 5V dessa forma o sensor de umidade, perde um pouco de sua resolução
   
 então não existe uma perda significativamente grande.
 
-1. Perceber que é bem legal, poder criar um **esp32.c**
+1. Perceber que é bem legal, poder criar um **esp32.c** e implementar a interface de hardware
 ```c
 void power_led(bool turn_on);
 void low_temperature_led(bool turn_on);
@@ -74,4 +74,4 @@ void write_air_flow_in_cubic_feet_per_minute(uint8_t *velocity);
 void write_heat_flow_in_watts(uint8_t *power);
 void setup();  
 ```
-sem precisar mudar a regra de tocar na regra de negócio.
+sem precisar mudar a regra de negócio do sistema.
