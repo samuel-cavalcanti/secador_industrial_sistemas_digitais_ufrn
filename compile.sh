@@ -1,0 +1,1 @@
+avr-gcc main.c hardware/* temperature_system/* draying_system/* -mmcu=atmega328p -o draying-system

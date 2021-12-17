@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "temperature_system.h": "c",
+        "stdbool.h": "c",
+        "stdint.h": "c",
+        "hardware_abstraction_layer.h": "c",
+        "io.h": "c",
+        "draying_system.h": "c"
+    }
+}
